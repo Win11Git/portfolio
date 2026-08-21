@@ -1,62 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
-
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Herwin Portfolio</title>
 	<link rel="stylesheet" type="text/css" href="./style.css">
-
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
-
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 <body>
+	<header>
+		<nav>
+			<ul class="no-bullets">
+				<li class="profilename">Herwin Portfolio</li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
 
-
-	<div class="container">
-		<section id="landing">
-			<h1> Full Stack Web Developer</h1>
-			<p>Hi! My Name is Herwin and I love building things from a scratch</p>
-			<img src="images/profile_pic.jpg" id="profile">
-			<a href="https://www.youtube.com"target="blank" class="btn btn-success btn-lg mt-3"> Let's Watch Together</a>
+	<main>
+		<section class="front" id="about">
+			<h1 id="hi">Frontend Developer</h1>
+			<h2>Herwin T. Magana</h2>
+			<p>Explore my projects and learn more about me.</p>
 		</section>
 
-	</div>
+		<section class="content-section projects-section" id="projects">
+			<div class="section-heading">
+				<p class="eyebrow">Selected Work</p>
+				<h3>Projects</h3>
+			</div>
+			<div class="project-grid">
+				<article class="project-card">
+					<span class="tag">UI Design</span>
+					<h4>Portfolio Redesign</h4>
+					<p>Crafted a sleek, modern portfolio experience with clean visual hierarchy and responsive layout.</p>
+				</article>
+				<article class="project-card">
+					<span class="tag">Web App</span>
+					<h4>Business Dashboard</h4>
+					<p>Built a dashboard concept focused on clarity, accessibility, and smooth interaction design.</p>
+				</article>
+				<article class="project-card">
+					<span class="tag">Branding</span>
+					<h4>Landing Page Concept</h4>
+					<p>Developed an engaging landing page with strong calls to action and subtle motion details.</p>
+				</article>
+			</div>
+		</section>
 
-	<footer class="fixed-bottom">
-		<a href="">
-		<i class="fa-solid fa-globe"></i>	
-		</a>
-
-		<a href="https://www.facebook.com/zuitttechcareer" target="blank">
-		<i class="fa-brands fa-facebook"></i>
-		</a>
-
-		<a href="https://twitter.com/zuittco" target="blank">
-		<i class="fa-brands fa-x-twitter"></i>	
-		</a>
-
-		<a href="https://www.instagram.com/zuitt_co" target="window">
-		<i class="fa-brands fa-instagram"></i>
-		</a>
-
-		<a href="https://www.youtube.com/@ZuittCo" target="blank">
-		<i class="fa-brands fa-youtube"></i>
-		</a>
-
-		<a href="https://www.tiktok.com/@zuittco" target="blank">
-		<i class="fa-brands fa-tiktok"></i>
-		</a>
-	</footer>
-
-
-	<script src="https://kit.fontawesome.com/17bc518754.js" crossorigin="anonymous"></script>
-
-
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-
+		<section class="content-section contact-section" id="contact">
+			<div class="section-heading">
+				<p class="eyebrow">Let's Connect</p>
+				<h3>Contact</h3>
+			</div>
+			<div class="contact-box">
+				<p>Email: herwin@example.com</p>
+				<p>Location: Philippines</p>
+				<div class="socials">
+					<a href="mailto:herwin@example.com">Email</a>
+					<a href="#projects">View Projects</a>
+				</div>
+			</div>
+		</section>
+	</main>
 </body>
 </html>
